@@ -43,26 +43,6 @@ connects this project to redux
 #### Hero Icons
 
 - [Hero Icons](https://heroicons.com/)
-#### First Reducer
-
-- cartSlice.js
-- Immer library
-
-```js
-const cartSlice = createSlice({
-  name: 'cart',
-  initialState,
-  reducers: {
-    clearCart: (state) => {
-      state.cartItems = [];
-    },
-  },
-});
-
-export const { clearCart } = cartSlice.actions;
-```
-
-- create action
 
 ```js
 const ACTION_TYPE = 'ACTION_TYPE';
