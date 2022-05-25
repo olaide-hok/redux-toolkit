@@ -61,7 +61,6 @@ const cartSlice = createSlice({
     }
 })
 
-// console.log(cartSlice);
 export const { 
     clearCart,
     removeItem,
